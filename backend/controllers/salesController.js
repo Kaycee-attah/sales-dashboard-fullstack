@@ -1,4 +1,4 @@
-import Sale from '../backend/models/Sale.js';
+import Sale from '../models/Sale.js';
 
 // @desc    Get all sales
 // @route   GET /api/sales

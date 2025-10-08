@@ -1,6 +1,6 @@
 import express from 'express';
 import { getSales, getSale, createSale, updateSale,
-  deleteSale } from '../controllers/salesController.js';
+  deleteSale } from '../controllers/salesController.js'
 
 const router = express.Router();
 
