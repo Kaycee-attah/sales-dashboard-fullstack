@@ -6,7 +6,7 @@ import {
   provideAppInitializer,
   setClassMetadata,
   ɵɵdefineNgModule
-} from "./chunk-N2WFCG6R.js";
+} from "./chunk-RV6GL3AZ.js";
 import {
   InjectionToken,
   Injector,
@@ -17,7 +17,7 @@ import {
   ɵɵdefineInjectable,
   ɵɵdefineInjector,
   ɵɵinject
-} from "./chunk-ZEL6VBDU.js";
+} from "./chunk-KGOC53G3.js";
 import {
   NEVER,
   Observable,

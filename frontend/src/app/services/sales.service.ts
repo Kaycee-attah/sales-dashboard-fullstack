@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
+import { environment } from '../../environments/environment.prod';
 
 export interface Sale {
   _id?: string;
@@ -24,7 +25,7 @@ interface ApiResponse<T> {
   providedIn: 'root'
 })
 export class SalesService {
-  private apiUrl = 'http://localhost:5000/api/sales'; 
+  private apiUrl = `${environment.apiUrl}/sales`; 
   
   constructor(private http: HttpClient) { }
 
