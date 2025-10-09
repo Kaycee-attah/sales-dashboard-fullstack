@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 const corsOptions = {
   origin: [
     'http://localhost:4200', // Angular dev server
-    'http://localhost:3000', // React dev server
+    
     'https://your-frontend-domain.vercel.app' // your production frontend URL
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],

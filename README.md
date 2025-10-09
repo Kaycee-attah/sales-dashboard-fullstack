@@ -23,7 +23,7 @@ A dynamic and interactive Sales Analytics Dashboard built with modern Angular. I
 ## 📸 Screenshots
 
 *(You can find screenshots of the project here.)*
-*![Dashboard Preview](./src/Screenshot%20(37).png)*
+*![Dashboard Preview](./frontend/src/Screenshot%20(37).png)*
 
 ## 🌐 Live Demo
 
