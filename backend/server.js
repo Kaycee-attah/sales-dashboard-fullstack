@@ -18,7 +18,7 @@ const corsOptions = {
   origin: [
     'http://localhost:4200', // Angular dev server
     
-    'https://fullstack-sales-dashboard.netlify.app/sales' // your production frontend URL
+    'https://fullstack-sales-dashboard.netlify.app' // your production frontend URL
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
